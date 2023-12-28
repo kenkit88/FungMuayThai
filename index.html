@@ -25,6 +25,10 @@
             background-color: #25292B;
         }
 
+        .bg-secion-color2 {
+            background-color: #1E2123;
+        }
+
         .navbar {
             font-size: 13px;
             font-weight: 700;
@@ -58,6 +62,24 @@
             background-color: #000000;
             font-family: "Quantico", Arial, Helvetica, sans-serif;
         }
+
+        .card-img-top {
+            object-fit: cover;
+        }
+
+        .card-body-color{
+            background-color: #25292B;
+        }
+
+        .card-body-text{
+            color: #AAA9A9;
+            white-space: nowrap;
+        }
+
+        .custom-line-height {
+        line-height: 1.5; /* 自訂的行高值 */
+        }
+
     </style>
 </head>
 
@@ -100,7 +122,7 @@
     </nav>
 
     <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators" class="carousel slide ">
             <!-- <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -147,9 +169,9 @@
             <div class="col-6">
                 <h2 class="text-center pt-3">關於我們</h2>
                 <p class="text-center py-3">WHO WE ARE</p>
-                <p class="text-center pb-3">旋風泰拳Fung Muay Thai &
+                <p class="text-center pb-5">旋風泰拳Fung Muay Thai &
                     Fitness位於葵涌，從葵芳港鐵站步行3分鐘即可到達，位置方便！我們的教練均有豐富比賽及教學經驗，不論你是想修身減肥、增肌健身、放鬆減壓或有意成為拳手出賽，旋風泰拳都可以滿足你嘅要求！</p>
-                <p class="text-center pb-3">Fung Muay Thai & Fitness is conveniently located in Kwai Chung, just a
+                <p class="text-center pb-5">Fung Muay Thai & Fitness is conveniently located in Kwai Chung, just a
                     3-minute walk from Kwai Fong MTR station! Our coaches have extensive competition and teaching
                     experience, so whether you are looking to lose weight, gain muscle, relax and de-stress, or want to
                     become a fighter, Fung Muay Thai can meet your needs!</p>
@@ -210,25 +232,49 @@
         </div>
     </div>
 
-    <div class="bg-secion-color text-white p-5">
+    <div class="bg-secion-color2 p-5 text-white">
         <div class="container">
             <h2 class="text-center pt-3">星級教練</h2>
-            <p class="text-center py-3">STAR COACH</p>
+            <p class="text-center py-3">STAR TRAINER</p>
             <div class="row justify-content-center">
-                <div class="col-xs-5">
-                    <div class="card" >
-                        <img src="img/prem1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.</p>
+                <div class="col-md-4">
+                    <div class="card border-dark" >
+                        <img src="img/tat2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-body-color">
+                            <h5 class="py-3 text-white">王康達 Ronald</h5>
+                            <p class="card-text card-body-text lh-lg">
+                                Bantamweight Champion of Hong Kong Muay Thai
+                                <br>
+                                Space One Champion 2023 洲際拳王
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-5">
-                    <div class="card" >
+                <div class="col-md-4">
+                    <div class="card border-dark" >
+                        <img src="img/prem1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-body-color">
+                            <h5 class="py-3 text-white">Prem Rungtiwa Jantas</h5>
+                            <p class="card-text card-body-text lh-lg">
+                                I-1 GX23 : Pacific Championship 70kg
+                                <br>
+                                Rajadamnern Championship
+                                <br>
+                                富德紅人堂世界搏擊王職業大賽KF1銀腰帶
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-dark">
                         <img src="img/tat1.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <div class="card-body card-body-color">
+                            <h5 class="py-3 text-white">星級教練</h5>
+                            <p class="card-text card-body-text">
+                                Some quick example text to build on 
+                                <br>
+                                the card title and make up the bulk of
+                                <br>
                                 the card's content.</p>
                         </div>
                     </div>
